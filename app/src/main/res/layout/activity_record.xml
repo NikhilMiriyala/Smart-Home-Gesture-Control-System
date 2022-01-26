@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordActivity">
+
+    <TextView
+        android:id="@+id/recordGestureTextView"
+        android:layout_width="370dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Record for Gesture"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="357dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="88dp"
+        android:text="Upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdAttemptBtn" />
+
+    <Button
+        android:id="@+id/firstAttemptBtn"
+        android:layout_width="174dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:text="Display first attempt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordGestureTextView" />
+
+    <Button
+        android:id="@+id/secondAttemptBtn"
+        android:layout_width="165dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="20dp"
+        android:text="Display Second Attempt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstAttemptBtn" />
+
+    <Button
+        android:id="@+id/thirdAttemptBtn"
+        android:layout_width="171dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="12dp"
+        android:text="Display Third Attempt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondAttemptBtn" />
+
+    <Button
+        android:id="@+id/recordFirstBtn"
+        android:layout_width="175dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:text="Record First Attempt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordGestureTextView" />
+
+    <Button
+        android:id="@+id/recordSecondBtn"
+        android:layout_width="173dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:text=" Record Second Attempt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordFirstBtn" />
+
+    <Button
+        android:id="@+id/recordThirdBtn"
+        android:layout_width="153dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="64dp"
+        android:text="Record Third Attempt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordSecondBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

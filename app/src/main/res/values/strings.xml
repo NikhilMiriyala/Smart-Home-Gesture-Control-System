@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Smart Home Gesture Control System</string>
+    <string-array name="gestureList">
+        <item>Select..</item>
+        <item>LightOn</item>
+        <item>LightOff</item>
+        <item>FanOn</item>
+        <item>FanOff</item>
+        <item>FanUp</item>
+        <item>FanDown</item>
+        <item>SetThermo</item>
+        <item>Num0</item>
+        <item>Num1</item>
+        <item>Num2</item>
+        <item>Num3</item>
+        <item>Num4</item>
+        <item>Num5</item>
+        <item>Num6</item>
+        <item>Num7</item>
+        <item>Num8</item>
+        <item>Num9</item>
+    </string-array>
+    <string-array name="recordingList">
+        <item>DummyForSelect</item>
+        <item>H-LightOn.mp4</item>
+        <item>H-LightOff.mp4</item>
+        <item>H-FanOn.mp4</item>
+        <item>H-FanOff.mp4</item>
+        <item>H-IncreaseFanSpeed.mp4</item>
+        <item>H-DecreaseFanSpeed.mp4</item>
+        <item>H-SetThermo.mp4</item>
+        <item>H-0.mp4</item>
+        <item>H-1.mp4</item>
+        <item>H-2.mp4</item>
+        <item>H-3.mp4</item>
+        <item>H-4.mp4</item>
+        <item>H-5.mp4</item>
+        <item>H-6.mp4</item>
+        <item>H-7.mp4</item>
+        <item>H-8.mp4</item>
+        <item>H-9.mp4</item>
+    </string-array>
+</resources>
